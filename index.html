@@ -1,70 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Toss & Go Junk Removal | Lansing, MI</title>
-
-<style>
-body{margin:0;font-family:Arial;background:#fff;color:#333}
-header{background:#111;color:#fff;padding:15px;text-align:center;font-weight:bold}
-.hero{padding:60px 20px;text-align:center;background:#f5f5f5}
-.hero h1{font-size:40px;margin-bottom:10px}
-.btn{display:inline-block;margin:5px;padding:15px 25px;background:#2ecc71;color:#fff;text-decoration:none;border-radius:8px;font-weight:bold}
-.section{padding:50px 20px;text-align:center}
-.services{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
-.card{border:1px solid #ddd;padding:20px;border-radius:10px;width:280px;background:#fafafa}
-.reviews{background:#f9f9f9}
-.form input,.form textarea{width:100%;padding:10px;margin:5px 0}
-footer{background:#111;color:#fff;text-align:center;padding:20px}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toss & Go Junk Removal | Lansing, MI</title>
+  <meta
+    name="description"
+    content="Fast, affordable, and hassle-free junk removal in Lansing, MI and surrounding areas. Call or text Toss & Go Junk Removal for a free quote."
+  />
+  <style>
+    :root{
+      --green:#2ecc71;
+      --green-dark:#23b861;
+      --dark:#111827;
+      --text:#4b5563;
+      --light:#f7f8fa;
+      --line:#e5e7eb;
+      --white:#ffffff;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--text);
+      background:var(--white);
+      line-height:1.6;
+    }
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px, calc(100% - 32px));margin:0 auto;}
+    header{
+      position:sticky;top:0;z-index:1000;
+      background:rgba(17,24,39,.96);
+      border-bottom:1px solid rgba(255,255,255,.08);
+    }
+    .nav{
+      display:flex;justify-content:space-between;align-items:center;
+      padding:14px 0;
+    }
+    .brand{color:#fff;font-size:28px;font-weight:900;}
+    .brand span{color:var(--green);}
+    .btn{
+      padding:12px 18px;border-radius:10px;font-weight:bold;
+      display:inline-block;
+    }
+    .btn-primary{background:var(--green);color:#fff;}
+    .btn-secondary{background:#fff;color:#111;border:1px solid #ddd;}
+    .hero{
+      background:#111;color:#fff;padding:60px 0;
+    }
+    .hero h1{font-size:42px;margin-bottom:10px;}
+    .section{padding:60px 0;}
+    .card{
+      background:#fff;border:1px solid #ddd;border-radius:14px;padding:20px;
+    }
+    input, textarea{
+      width:100%;padding:12px;margin:6px 0;
+      border-radius:8px;border:1px solid #ccc;
+    }
+    footer{
+      background:#111;color:#ccc;padding:30px 0;margin-top:40px;
+    }
+  </style>
 </head>
-
 <body>
 
-<header>Toss & Go Junk Removal</header>
+<header>
+  <div class="container nav">
+    <div class="brand">Toss <span>&</span> Go</div>
+    <div>
+      <a class="btn btn-secondary" href="sms:5175255465">Text</a>
+      <a class="btn btn-primary" href="tel:5175255465">Call</a>
+    </div>
+  </div>
+</header>
 
 <section class="hero">
-<h1>Junk Removal in Lansing, MI</h1>
-<p>Fast, affordable, and hassle-free junk removal services.</p>
-<a href="tel:5175255465" class="btn">Call Now</a>
-<a href="sms:5175255465" class="btn">Text Photos</a>
+  <div class="container">
+    <h1>Junk Removal in Lansing, MI</h1>
+    <p>Fast, affordable, and hassle-free junk removal services.</p>
+    <a class="btn btn-primary" href="tel:5175255465">Call Now</a>
+    <a class="btn btn-secondary" href="sms:5175255465">Text Photos</a>
+  </div>
 </section>
 
 <section class="section">
-<h2>Get a Free Quote</h2>
-<form class="form">
-<input type="text" placeholder="Name" required>
-<input type="text" placeholder="Phone" required>
-<input type="email" placeholder="Email">
-<textarea placeholder="What do you need removed?"></textarea>
-<button class="btn">Submit</button>
-</form>
-</section>
-
-<section class="section">
-<h2>Our Services</h2>
-<div class="services">
-<div class="card">Furniture Removal</div>
-<div class="card">Appliance Removal</div>
-<div class="card">Garage Cleanouts</div>
-<div class="card">House Cleanouts</div>
-<div class="card">Yard Waste Removal</div>
-<div class="card">Construction Debris</div>
-</div>
-</section>
-
-<section class="section reviews">
-<h2>Customer Reviews</h2>
-<p>"Fast, reliable, and professional!"</p>
-<p>"Great pricing and communication!"</p>
-<p>"Highly recommend Toss & Go!"</p>
+  <div class="container">
+    <h2>Get a Free Quote</h2>
+    <div class="card">
+      <form onsubmit="sendQuote(event)">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="phone" placeholder="Phone" required>
+        <input type="email" id="email" placeholder="Email">
+        <textarea id="details" placeholder="What do you need removed?"></textarea>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
 </section>
 
 <footer>
-<p>Call or Text: 517-525-5465</p>
-<p>Serving Lansing and surrounding areas</p>
+  <div class="container">
+    Toss & Go Junk Removal<br>
+    Call or Text: (517) 525-5465
+  </div>
 </footer>
+
+<script>
+function sendQuote(event) {
+  event.preventDefault();
+
+  const name = document.getElementById('name').value || '';
+  const phone = document.getElementById('phone').value || '';
+  const email = document.getElementById('email').value || '';
+  const details = document.getElementById('details').value || '';
+
+  const subject = encodeURIComponent('Quote Request - Toss & Go Junk Removal');
+  const body = encodeURIComponent(
+    'Name: ' + name + '\\n' +
+    'Phone: ' + phone + '\\n' +
+    'Email: ' + email + '\\n\\n' +
+    'Details:\\n' + details
+  );
+
+  window.location.href = 'mailto:info@tossandgojunkremoval.com?subject=' + subject + '&body=' + body;
+}
+</script>
 
 </body>
 </html>
