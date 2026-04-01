@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garage Cleanout in Lansing, MI | Toss & Go Junk Removal</title>
+  <meta name="description" content="Garage cleanout services in Lansing, MI. We remove junk, clutter, and debris quickly and affordably. Call Toss & Go for a free quote.">
+  <style>
+    body {font-family:Arial; margin:0; line-height:1.6; color:#333;}
+    header {background:#111; color:#fff; padding:20px; text-align:center;}
+    .container {max-width:900px; margin:auto; padding:20px;}
+    h1 {font-size:36px;}
+    h2 {margin-top:40px;}
+    .btn {display:inline-block; padding:12px 18px; background:#2ecc71; color:#fff; border-radius:6px; margin:10px 5px;}
+    .section {margin-bottom:40px;}
+  </style>
+</head>
+<body>
 
+<header>
+  <h2>Toss & Go Junk Removal</h2>
+</header>
+
+<div class="container">
+
+  <h1>Garage Cleanout in Lansing, MI</h1>
+
+  <p>
+    Need help clearing out your garage? Toss & Go Junk Removal provides fast and affordable garage cleanout services in Lansing, MI.
+    Whether your garage is packed with clutter or you just need a few items removed, we make the process easy.
+  </p>
+
+  <a class="btn" href="tel:5175255465">Call Now</a>
+  <a class="btn" href="sms:5175255465">Text Photos</a>
+
+  <div class="section">
+    <h2>What We Remove</h2>
+    <ul>
+      <li>Old furniture and junk</li>
+      <li>Boxes and clutter</li>
+      <li>Appliances and equipment</li>
+      <li>Yard tools and debris</li>
+      <li>Construction leftovers</li>
+      <li>And more</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Why Choose Toss & Go</h2>
+    <ul>
+      <li>Fast turnaround times</li>
+      <li>Affordable pricing</li>
+      <li>Friendly, professional service</li>
+      <li>Locally owned and operated</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>How It Works</h2>
+    <p>
+      Call or text us photos of your garage and we’ll provide a quick quote.
+      Once approved, we schedule a time and take care of everything.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Get a Free Quote</h2>
+    <p>
+      Call or text (517) 525-5465 now to schedule your garage cleanout.
+    </p>
+    <a class="btn" href="tel:5175255465">Call Now</a>
+    <a class="btn" href="sms:5175255465">Text Photos</a>
+  </div>
+
+</div>
+
+</body>
+</html>
