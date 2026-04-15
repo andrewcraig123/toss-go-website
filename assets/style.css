@@ -70,3 +70,8 @@ h3{font-size:24px}
 @media (max-width:1040px){.service-grid,.city-grid,.reviews-grid,.link-grid{grid-template-columns:repeat(2,1fr)}.three-grid{grid-template-columns:1fr}}
 @media (max-width:860px){.menu-toggle{display:block}.primary-nav{display:none;position:absolute;left:16px;right:16px;top:92px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:var(--shadow);flex-direction:column;align-items:flex-start}.primary-nav.open{display:flex}.hero-grid,.split-grid,.footer-grid{grid-template-columns:1fr}.site-logo{height:58px}h1{font-size:42px}h2{font-size:32px}.site-footer{padding-bottom:140px}.sticky-bar{display:grid}}
 @media (max-width:640px){.container{width:min(100% - 24px,1160px)}.service-grid,.city-grid,.reviews-grid,.link-grid{grid-template-columns:1fr}.btn{width:100%}.hero{padding:60px 0 48px}h1{font-size:34px}.lead{font-size:18px}}
+.sticky-cta,
+.sticky-bar,
+.mobile-sticky-bar {
+  display: none !important;
+}
