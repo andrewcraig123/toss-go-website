@@ -75,3 +75,8 @@ h3{font-size:24px}
 .mobile-sticky-bar {
   display: none !important;
 }
+.footer-logo {
+  width: 220px !important;
+  height: auto;
+  display: block;
+}
