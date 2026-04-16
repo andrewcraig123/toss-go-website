@@ -79,10 +79,5 @@ h3{font-size:24px}
   width: 220px !important;
   height: auto;
   display: block;
-  margin-bottom: 18px;
-}
-
-.site-footer .footer-grid > div:first-child p {
-  margin-top: 0;
-  max-width: 420px;
+  margin: -8px 0 18px 18px;
 }
