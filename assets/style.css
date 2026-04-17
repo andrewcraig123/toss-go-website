@@ -93,10 +93,7 @@ h3{font-size:24px}
   }
 
   .hero-actions,
-  .nav-actions {
-    justify-content: center;
-  }
-
+  .nav-actions,
   .badge-row {
     justify-content: center;
   }
@@ -107,6 +104,25 @@ h3{font-size:24px}
   .link-grid,
   .areas-grid,
   .footer-grid {
+    text-align: center;
+  }
+
+  section h2,
+  section h3,
+  .cards-2 h2,
+  .cards-3 h2,
+  .link-grid h2,
+  .service-grid h2,
+  .city-grid h2 {
+    text-align: center;
+  }
+
+  .service-title,
+  .city-link,
+  .mini-link,
+  .review-card,
+  .cards-2 > div,
+  .cards-3 > div {
     text-align: center;
   }
 }
