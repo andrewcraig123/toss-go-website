@@ -81,3 +81,32 @@ h3{font-size:24px}
   display: block;
   margin: -22px 0 20px 52px;
 }
+@media (max-width: 768px) {
+  .hero,
+  .hero-grid,
+  .section-head,
+  .page-hero,
+  .content,
+  .quote-card,
+  .final-cta {
+    text-align: center;
+  }
+
+  .hero-actions,
+  .nav-actions {
+    justify-content: center;
+  }
+
+  .badge-row {
+    justify-content: center;
+  }
+
+  .cards-2,
+  .cards-3,
+  .reviews-grid,
+  .link-grid,
+  .areas-grid,
+  .footer-grid {
+    text-align: center;
+  }
+}
